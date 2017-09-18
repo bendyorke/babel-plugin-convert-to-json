@@ -9,6 +9,8 @@ Convert various file formats to json on import.  Very much so a work in progress
 ```js
 import yml from './yml.yml'
 import env from './.env'
+const yml2 = require('./yml.yml')
+const env2 = require('./.env')
 ```
 
 **Out**
@@ -16,6 +18,8 @@ import env from './.env'
 ```js
 const yml = <JSON>
 const env = <JSON>
+const yml2 = <JSON>
+const env2 = <JSON>
 ```
 
 ## Installation
